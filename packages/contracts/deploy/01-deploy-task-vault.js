@@ -1,4 +1,4 @@
-import { ethers } from "hardhat";
+const { network, ethers } = require("hardhat")
 
 const main = async () => {
     const USDC_ADDRESS_MUMBAI = "0x0FA8781a83E46826621b3BC094Ea2A0212e71B23";
